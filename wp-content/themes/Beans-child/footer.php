@@ -1,14 +1,16 @@
-<?php
-/**
- * This file's content is located in /lib/templates/structure/footer.php and should
- * only be overwritten via your child theme.
- *
- * We strongly recommend to read the Beans documentation to find out more about
- * how to customize the Beans theme.
- *
- * @author Beans
- * @link   https://www.getbeans.io
- * @package Beans\Framework
- */
 
-beans_load_default_template( __FILE__ );
+
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="utf-8">
+            <title>Planty</title>
+            <link href="style.css" rel="stylesheet" type="text/css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+        </head>
+
+<footer>
+        <p>Mentions légales</p>                    
+</footer>
