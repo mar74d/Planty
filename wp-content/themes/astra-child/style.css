@@ -11,3 +11,70 @@ Updated: 2023-06-06 17:58:29
 
 */
 
+
+
+                header {
+                height: 80px;
+                background: #FFFFFF;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                }
+
+                #logo_image {
+                width: 201px;
+                height: 19px;
+                }
+
+                #menu-principal {
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                }
+
+                 .menu-link {
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                 identical to box height 
+                color: #000000;
+                text-decoration: none;
+                }
+
+                .menu-link {
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px; 
+                color: #000000;
+                text-decoration: none;
+                }
+
+                #menu-item-22 .menu-link {
+                font-family: 'Syne';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                text-decoration: none;
+                }
+
+                li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 236px;
+                height: 80px;
+                }
+
+                #menu-item-22 {
+                    background-color: #DC9F96;
+                }
+    
