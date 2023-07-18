@@ -13,6 +13,7 @@ if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):
     }
 endif;
 add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
+add_filter('wpcf7_autop_or_not', '__return_false');
          
 if ( !function_exists( 'child_theme_configurator_css' ) ):
     function child_theme_configurator_css() {
