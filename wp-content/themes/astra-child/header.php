@@ -33,9 +33,8 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 <?php astra_head_bottom(); ?>
 </head>
 
-<body
-      >
-<header>
+<body>
+      <header>
                 <div id="logo_image">
                 <img src="<?= get_stylesheet_directory_uri()."/images/Logo.png" ?>" alt="Logo du site Planty" title="Logo du site Planty">
                 <!-- génère un lien absolu vers dossier images !-->
@@ -44,4 +43,4 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
                 <?php wp_nav_menu() ?>
 
 
-            </header>
+      </header>

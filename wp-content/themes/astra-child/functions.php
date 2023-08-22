@@ -23,3 +23,11 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 3, 3 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+    if (is_user_logged_in() && $args->menu == 3) {
+        $items .= '<li><a href="'. get_permalink( get_option('admin') ) .'">Admin</a></li>';
+    }
+    return $items;
+}
