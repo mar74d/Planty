@@ -36,10 +36,10 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 <body>
       <header>
                 <div id="logo_image">
-                <img src="<?= get_stylesheet_directory_uri()."/images/Logo.png" ?>" alt="Logo du site Planty" title="Logo du site Planty">
+                <a href="../"> <img src="<?= get_stylesheet_directory_uri()."/images/Logo.png" ?>" alt="Logo du site Planty" title="Logo du site Planty"> </a>
                 <!-- génère un lien absolu vers dossier images !-->
                 </div>
-                    
+                
                 <?php wp_nav_menu() ?>
 
 
