@@ -27,10 +27,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 		
 	astra_footer_after(); 
 ?>
+
+<footer>
+	
+	<a href="http://localhost/Planty/mentions-legales/" id="afooter">Mentions légales</a>
+
+</footer>
+
 	</div><!-- #page -->
 <?php 
 	astra_body_bottom();    
 	wp_footer(); 
 ?>
+
 	</body>
 </html>

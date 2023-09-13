@@ -27,7 +27,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
     if (is_user_logged_in() ) {
-        $items .= '<li id = menu_admin> <a href="admin" class = "menu_admin">Admin</a></li>';
+        $items .= '<li id = "menu_admin"> <a href="' . admin_url() .'" class = "menu_admin">Admin</a></li>';
     }
     return $items;
 }
